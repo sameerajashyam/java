@@ -1,0 +1,31 @@
+class kl{
+    public static void main(String[] args)
+    {
+        Food d=new Food();
+        d.mess();
+        
+    }
+}
+class Hostel
+{
+ 
+ void kl()
+ {
+     System.out.println("kl hostel");
+ }
+ 
+
+}
+class Food extends Hostel{
+     void mess()
+     {
+         System.out.println("nice  food in mess");
+     }
+ }
+  class Rooms extends Food
+  {
+     void flat()
+     {
+         System.out.println(" four rooms in a flat");
+     }
+ }
